@@ -1,0 +1,92 @@
+.custom-button {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remove bordas */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Alinhamento em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 10px 2px; /* Espaçamento externo */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    border-radius: 8px; /* Arredonda os cantos */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+ 
+.custom-button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+ 
+.card {
+    background-color: #fff; /* Cor de fundo */
+    border: 1px solid #ddd; /* Borda */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: 300px; /* Largura do card */
+    margin: 20px; /* Espaçamento */
+    overflow: hidden; /* Esconde conteúdo que ultrapassa */
+}
+ 
+.card-img {
+    width: 100%; /* Largura da imagem */
+    height: auto; /* Altura automática */
+}
+ 
+.card-content {
+    padding: 16px; /* Espaçamento interno */
+}
+ 
+.card-title {
+    font-size: 20px; /* Tamanho do título */
+    margin: 0 0 10px; /* Espaçamento */
+}
+ 
+.card-description {
+    font-size: 14px; /* Tamanho da descrição */
+    color: #555; /* Cor do texto */
+}
+ 
+.navbar {
+    background-color: #333; /* Cor de fundo */
+    padding: 10px; /* Espaçamento interno */
+}
+ 
+.navbar-list {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove espaçamentos */
+    display: flex; /* Layout em linha */
+}
+ 
+.navbar-item {
+    margin-right: 20px; /* Espaçamento entre itens */
+}
+ 
+.navbar-link {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 8px 16px; /* Espaçamento interno */
+    border-radius: 4px; /* Cantos arredondados */
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+ 
+.navbar-link:hover {
+    background-color: #575757; /* Cor de fundo ao passar o mouse */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
